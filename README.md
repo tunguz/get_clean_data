@@ -1,29 +1,20 @@
-get_clean_data
-==============
+# Getting And Cleaning Data Course Project
 
-Getting And Cleaning Data Course Project
+## 1. Importing All Files
 
+### Following are the steps taken for the purpose of importing all the necessary data files:
 
 Read the y_test.txt into a table y_test_table.
 
 Read the subject_test.txt into a table subject_test_table.
 
+Read the X_test.txt into a table X_test_table.
 
-# Read the X_test.txt into a table
+Read the y_train.txt into a table y_train_table.
 
-X_test_table <- read.table("./data/test/X_test.txt")
+Read the subject_train.txt into a table subject_train_table.
 
-# Read the y_train.txt into a table
-
-y_train_table <- read.table("./data/train/y_train.txt")
-
-# Read the subject_train.txt into a table
-
-subject_train_table <- read.table("./data/train/subject_train.txt")
-
-# Read the X_train.txt into a table
-
-X_train_table <- read.table("./data/train/X_train.txt")
+Read the X_train.txt into a table X_train_table.
 
 # Read activity_labels.xtx into a table
 
